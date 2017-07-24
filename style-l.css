@@ -1,0 +1,59 @@
+/* CSS Document */
+body {margin:0; background-image:url(images/bg.jpg); font-family:Verdana, Arial, Helvetica, sans-serif; color:#333333;}
+
+#page {background-color:#FFFFFF; width:600px; border-top: 8px #33aa00 solid; border-bottom: 3px #33aa00 solid; margin: 0 auto; display:table; padding-bottom:5px;}
+
+#header {width:600px;}
+
+#logo {float:left; width: 230px; border-right: 1px #cccccc solid; padding-bottom: 12px; background-color:#eeeeee}
+#logo h1 {font-size:18px; font-family:"Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; padding:5px 0 0 10px; margin:0}
+#logo .tagline {font-size:11px; padding-left: 10px;}
+
+#topnav {float:right;  padding-bottom: 5px;}
+#topnav .menu {width: 150px; float:left; border-bottom: 4px #cccccc solid; margin-right: 10px}
+#topnav .menu_item {padding-top:5px; font-size:1.1em;}
+#topnav .menu_item a{color:#333333; text-decoration:none;}
+#topnav .menu_item a:hover{color:#33aa00; text-transform:uppercase;}
+#topnav .here{color:#33aa00; text-transform:uppercase; padding-top:5px; font-size:1.1em;}
+#topnav .menu_desc {font-size:10px;}
+
+#body {padding: 0 0 0 10px; clear:both}
+#body .post {width: 380px; margin:10px 0; padding:0; display:table}
+#body .post h2, #body .post h2 a {margin:0; color:#33aa00; letter-spacing:-1px; font-size:1.2em; font-family:"Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; text-decoration: none;}
+#body .post h3 {margin:0; color:#333; letter-spacing:-1px; font-size:1em; font-family:"Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;}
+#body .post p, #body .post cite {font-size:0.8em; margin:5px 0; text-align:justify;}
+#body .post blockquote {font-size: 0.8em; margin: 5px 0 5px 10px; font-style: italic; text-align: justify;}
+#body .post p a {color:#33aa00;}
+#body .post ul.bibliografia {font-size:0.8em; margin:5px 0; text-align:left;}
+#body .post ul.bibliografia a {color:#33aa00;}
+#body .post ul.bibliografia li {list-style-image:url(images/arrow_outline.gif); margin-bottom: 5px;}
+#body .post .dati-scheda p {text-align:left;}
+
+#sidebar {float:right; margin:0; width: 170px;}
+#sidebar .sidebar_head {background-color:#33aa00; margin-top:4px; padding:4px}
+#sidebar h3{margin:0; color:#FFFFFF; font-size:14px; font-family:"Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; font-weight:bolder;}
+#sidebar ul {margin:5px 0; padding:0 0 0 20px;}
+#sidebar ul li{list-style-image:url(images/0066_double_arrow.png); font-size:11px}
+#sidebar ul li a{color:#333333}
+#sidebar .pag-corrente{color:#33aa00; text-transform:uppercase; list-style-image:none;font-weight:bold;}
+
+#footer {text-align:center}
+#footer p {color:#FFFFFF; font-size:10px;}
+#footer p a{color:#FFFFFF; text-decoration:none}
+#footer p a:hover{color:#FFFFFF; text-decoration:underline}
+
+.folio_img {margin: 10px 0; text-align:center; background-color:#eeeeee; width: 357px; padding: 10px; border: 1px #cccccc dashed}
+.folio_img img {border: 1px #cccccc solid; padding:4px; background-color:#eeeeee; margin: 10px 10px 0 0}
+/*
+.scheda_img {margin: 10px 0; text-align:center; width: 200px; background-color:#eeeeee; padding: 10px; border: 1px #cccccc dashed; float: right;}
+*/
+img.scheda_img {border: 1px #cccccc solid; padding:4px; background-color:#eeeeee; margin: 0 0 10px 10px; float: right;}
+.generica_img {margin: 10px 0; text-align:center; background-color:#eeeeee; padding: 10px; border: 1px #cccccc dashed;}
+.generica_img img {margin: 0; text-align:center; border: 1px #cccccc solid; padding: 4x;} 
+.generica_img img.seconda {margin-left:15px;} 
+img.generica_img {border: 1px #cccccc dashed; padding:4px; background-color:#eeeeee; margin: 10px 0;}
+
+.style1 {color: #33aa00}
+.stitle {color: #33aa00}
+
+.meta {font-style: italic;}
